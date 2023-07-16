@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-size: 101%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+.greetings {
+    background-color: lightsalmon;
+    width: 500px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+img {
+    border-radius: 30px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.25);
+    transition: all .3s
+}
+img:hover {
+    border-radius: 10px;
+}
+
+/* .social {
+    background-color: lightsteelblue;
+    color: black;
+    width: 260px;
+    height: 23px;
+    border-radius: 15px;
+    padding-left: 38px;
+    padding-bottom: 1px;
+} */
+
+ a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+ a:hover {
+    color: rgb(97, 97, 97);
+    font-size: 20px;
+}
+
+.hobby {
+    background-color: lightgreen;
+    width: 260px;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+.hobby h3 {
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 50px;
+}
+
+.work {
+    background-color: lightskyblue;
+    width: 370px;
+    border-radius: 20px;
+    padding-left: 12px;
+    padding-bottom: 3px;
+}
+
+.work h3 {
+    padding-top: 10px;
+    padding-left: 90px;
+    padding-right: 50px;
+}
+
+.contact {
+    background-color: lightpink;
+    width: 320px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.contact h3 {
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 50px;
+
+}
+.button {
+    background-color:indianred ;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 7px;
+    border: 0px;
+}
+.button:hover {
+    background-color: rgb(206, 64, 64);
+    /* cursor: pointer; */
+}
+.button:active {
+    background-color: rgb(204, 26, 26);
+}
+
+
