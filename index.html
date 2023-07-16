@@ -5,64 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="resume, cv">
     <meta name="description" content="Мой Сайт-резюме">
-    <title>MyWebsite</title>
+    <link rel="stylesheet" href="index.css">
+    <title>Гоша Каштан - резюме</title>
 </head>
 <body>
-    
-    <h1>Гоша Каштан</h1>
-    <p>Меня зовут <b>Гоша!</b> Я изучаю <b>програмирвоание</b> и <b>web-разработку</b>. Свой путь я начинаю с изучения <b>HTML&CSS</b></p>
-    <p>Я люблю <em>заниматься спортом</em>, <em>программировать</em> и <em>играть в игры</em></p>
-    <h3>Мое фото с Нового года и Список социальных сетей:</h3>
-    <img src="avatar.png" alt="Мой аватар">
-    <p><a href="https://vk.com/potomuwto" target="_blank">Vkontakte</a> | <a href="https://steamcommunity.com/profiles/76561199111206450/" target="_blank">Steam</a> | <a href="">Telegram</a></p>
+    <div class="container">
+        <h1>Гоша Каштан</h1>
+        <div class="greetings">
+            <p>Меня зовут <b>Гоша!</b> Я изучаю <b>програмирвоание</b> и <b>web-разработку</b>. Свой путь я начинаю с изучения <b>HTML&CSS</b></p>
+            <p>Я люблю <em>заниматься спортом</em>, <em>программировать</em> и <em>играть в игры</em></p>
+        </div>
+        <h3>Мое фото с Нового года и Список социальных сетей:</h3>
+        <img src="avatar.png" alt="Мой аватар">
+        <div class="social">
+            <p><a href="https://vk.com/potomuwto" target="_blank">Vkontakte</a> |
+            <a href="https://steamcommunity.com/profiles/76561199111206450/" target="_blank">Steam</a> |
+            <a href="">Telegram</a>
+            </p>
+        </div>
 
-    <h3>Мои хобби</h3>
-    <ul>
-        <li>Спорт</li>
-        <li>Путешествия</li>
-        <li>Программирование</li>
-        <li>Чтение книг</li>
-    </ul>
+        <div class="hobby">
+            <h3>Мои хобби</h3>
+            <ul>
+                <li>Спорт</li>
+                <li>Путешествия</li>
+                <li>Программирование</li>
+                <li>Чтение книг</li>
+            </ul>
+        </div>
 
-    <h3>Опыт работы</h3>
-    <table width="400">
-        <thead>
-            <tr>
-                <td><b>Название</b></td>
-                <td><b>Должность</b></td>
-                <td><b>Год</b></td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Школа</td>
-                <td>Ученик</td>
-                <td>2016-сейчас</td>
-            </tr>
-            <tr>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
+        <div class="work">
+            <h3>Опыт работы</h3>
+            <table width="400">
+                <thead>
+                    <tr>
+                        <td><b>Название</b></td>
+                        <td><b>Должность</b></td>
+                        <td><b>Год</b></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Школа</td>
+                        <td>Ученик</td>
+                        <td>2016-сейчас</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <h3>Связаться со мной</h3>
+        <div class="contact" >
+            <h3>Связаться со мной</h3>
 
-    <div>
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="Введите имя">
+            <div>
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Введите имя">
+            </div>
+
+            <div>
+                <label for="email">Ваш email:</label>
+                <input type="email" id="email" placeholder="Введите email">
+            </div>
+
+            <div>
+                <label for="message">Ваше сообщение:</label>
+                <br>
+                <textarea name="" id="message" cols="25" rows="6" placeholder="Введите сообщение..."></textarea>
+            </div>
+            <button type="submit" class="button">Отправить!</button>
+        </div>
     </div>
-
-    <div>
-        <label for="email">Ваш email:</label>
-        <input type="email" id="email" placeholder="Введите email">
-    </div>
-
-    <div>
-        <label for="message">Ваше сообщение:</label>
-        <br>
-        <textarea name="" id="message" cols="25" rows="6" placeholder="Введите сообщение..."></textarea>
-    </div>
-    <button type="submit">Отправить!</button>
-
 </body>
 </html>
