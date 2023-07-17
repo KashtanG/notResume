@@ -18,6 +18,7 @@ h3 {
     padding-right: 10px;
     padding-top: 1px;
     padding-bottom: 1px;
+    text-align: center;
 }
 
 img {
@@ -81,7 +82,7 @@ img:hover {
 
 .contact {
     background-color: lightpink;
-    width: 320px;
+    width: 340px;
     border-radius: 20px;
     padding-left: 15px;
     padding-bottom: 10px;
@@ -108,5 +109,8 @@ img:hover {
 .button:active {
     background-color: rgb(204, 26, 26);
 }
+
+
+
 
 
